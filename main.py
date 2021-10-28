@@ -26,7 +26,7 @@ if height >= 120:
     #Add $3 to their bill.
     print(f"Total to pay is {(bill + photo_price)}")
   
-  print(f"Total to pay is {bill}")
+  print(f"Total to pay is ${bill}")
 
 else:
   print("Sorry, you need to grow taller before you can ride. ")
