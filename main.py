@@ -12,13 +12,18 @@ if height >= 120:
     bill = 5
     print(f"Child tickets cost ${bill}")
 
-  if age <= 18:
+  elif age <= 18:
     bill = 7
     print(f"Youth ticket cost ${bill}")
 
-  if age > 18:
+  elif age >= 45 and age <= 55:
+    bill = 0
+    print("You get free ride on us!")
+
+  else:
     bill = 12
     print(f"Adult ticket cost ${bill}")
+  
 
   photo_consent = input("Do you want a photo of you taken? Yes or No :").lower()
 
