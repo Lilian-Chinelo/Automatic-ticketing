@@ -25,8 +25,8 @@ if height >= 120:
   if photo_consent == "yes":
     #Add $3 to their bill.
     print(f"Total to pay is {(bill + photo_price)}")
-  else:
-    print(f"Total to pay is {bill}")
+  
+  print(f"Total to pay is {bill}")
 
 else:
   print("Sorry, you need to grow taller before you can ride. ")
